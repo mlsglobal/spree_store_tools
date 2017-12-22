@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'spree_store_tools'
+
+SpreeStoreTools::HammerOfTheGods.start( ARGV )
