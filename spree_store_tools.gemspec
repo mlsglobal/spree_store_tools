@@ -30,6 +30,14 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'thor'
+  spec.add_dependency 'figaro'
+  spec.add_dependency 'ap'
+  spec.add_dependency 'awesome_print'
+  spec.add_dependency 'curb'
+  spec.add_dependency 'mechanize'
+
+  # gem "awesome_print", require:"ap"
+
 
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'minitest', '~> 5.0'
